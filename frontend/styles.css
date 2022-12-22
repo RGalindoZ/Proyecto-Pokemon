@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+
+/* Main content */
+* {
+   font-family: "Poppins", sans-serif;
+}
+body {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   background-image: url("./assets/fondo.jpg");
+   background-repeat: no-repeat;
+   background-position: center center;
+   background-size: cover;
+   background-attachment: fixed;
+}
+/* Nav bar */
+.navigator {
+   position: fixed;
+   width: 45%;
+   border-radius: 10px;
+   align-self: flex-end;
+   margin-top: 60px;
+   margin-right: 170px;
+   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+nav {
+   background-color: #e15282;
+   color: #fff;
+}
+.navbar-nav {
+   padding: 11px 20px;
+}
+.nav-link {
+   margin-left: 10px;
+   margin-right: 10px;
+}
+.nav-link {
+   color: #fff;
+}
+.logo {
+   width: 120px;
+   margin-left: 30px;
+   background-color: #e15282;
+}
